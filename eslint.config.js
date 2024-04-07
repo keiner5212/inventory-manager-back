@@ -14,5 +14,10 @@ export default [
   {
     languageOptions: { globals: globals.node }
   },
-  ...compat.extends('standard')
-];
+  ...compat.extends('standard'),
+  {
+    rules: {
+      'eol-last': 'off'
+    }
+  }
+]

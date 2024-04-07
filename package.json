@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "lint": "npx eslint ./**"
+    "lint": "npx eslint ./**.js"
   },
   "keywords": [],
   "author": "CRISTIAN ANDRES GARCIA SIERRA, KEINER JOSE ALVARADO QUINTERO, CRISTINA MARIA SANCHEZ MUNOZ, VICTOR RAFAEL VILLARREAL UTRIA",
