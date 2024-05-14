@@ -17,7 +17,7 @@ export default [
   ...compat.extends('standard'),
   {
     rules: {
-      'eol-last': 'off'
+      'eol-last': 'off',
     }
   }
 ]
